@@ -11,7 +11,7 @@ sed -i 's/#precedence\ ::ffff:0:0\/96\ \ 100/precedence\ ::ffff:0:0\/96\ \ 100/'
 
 sed -i 's/#prefer-family \= IPv6/prefer-family = IPv4/' /etc/wgetrc
 
-# Now you can carry on to the lines given in the guide:
+Now you can carry on to the lines given in the guide:
 
 apt install zip unzip fail2ban
 
