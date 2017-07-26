@@ -20,6 +20,9 @@ wget [the latest zip such as howto_latest.zip]
 unzip [that zip file]
 
 ./script.sh
+
 .
+
 .
+
 .
