@@ -1,8 +1,11 @@
 # empirelogistics
 
 It's possible to have a catch-22 situation very early in the build.  We have to download and install some things in order
-to get started, but these downloads may hang because IPv6 has precedence over IPv4.  If the very first downloads do not work,
-copy the following and paste it into the shell
+to get started, but these downloads may hang because IPv6 has precedence over IPv4.  If this line hangs and never completes:
+
+apt install zip unzip fail2ban
+
+...Press ^c, paste the following two lines into the shell and try again.
 
 sed -i 's/#precedence\ ::ffff:0:0\/96\ \ 100/precedence\ ::ffff:0:0\/96\ \ 100/' /etc/gai.conf
 
