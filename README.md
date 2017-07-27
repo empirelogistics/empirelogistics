@@ -7,7 +7,7 @@ apt install zip unzip fail2ban
 
 ...Press ^c, paste the following two lines into the shell and try again.
 
-sed -i 's/#precedence\ ::ffff:0:0\/96\ \ 100/precedence\ ::ffff:0:0\/96\ \ 100/' /etc/gai.conf
+sed -i 's/#precedence\ ::ffff:0:0\\/96\ \ 100/precedence\ ::ffff:0:0\\/96\ \ 100/' /etc/gai.conf
 
 sed -i 's/#prefer-family \= IPv6/prefer-family = IPv4/' /etc/wgetrc
 
