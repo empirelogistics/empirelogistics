@@ -1,6 +1,6 @@
 # empirelogistics
 
-In order to avoid a catch-22 when your server is brand new, copy the following block of lines and paste it into the shell.
+In order to avoid a catch-22 when your server is brand new, here is some external bootstrapping or help in order to get started.  Copy the following block of five lines and paste it into the shell.
 
 -------------------------------------------------------------------------------------------------------------------------
 
