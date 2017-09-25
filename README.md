@@ -4,7 +4,7 @@ In order to avoid a catch-22 when your server is brand new, here is some externa
 
 -------------------------------------------------------------------------------------------------------------------------
 
-sed -i 's/#precedence\ ::ffff:0:0\/96\ \ 100/precedence\ ::ffff:0:0\/96\ \ 100/' /etc/gai.conf
+sed -i 's/#precedence\ ::ffff:0:0\\\/96\ \ 100/precedence\ ::ffff:0:0\\\/96\ \ 100/' /etc/gai.conf
 
 sed -i 's/#prefer-family = IPv6/prefer-family = IPv4/' /etc/wgetrc
 
